@@ -7,7 +7,7 @@ import {
 
 
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 
 import Menu from './Menu/Menu'
@@ -36,7 +36,6 @@ function App() {
               </Route>
           </Switch>
       </div>
-      <HomePage></HomePage>
       <Footer></Footer>
     </Router>
   );

@@ -1,4 +1,6 @@
 import React from 'react';
+import ChartData from "../ChartData/ChartData";
+
 
 function HomePage() {
   return (
@@ -96,18 +98,14 @@ function HomePage() {
             </section>
             </div>
                 
-            <div className="chart-container">
-                <h1>Chart Js Pie Chart</h1>
-                <canvas id="myChart"></canvas>
-
-                <h1>D3Js Chart</h1>
-                <div className="another-chart-container"></div>
-                </div>
+           
 
                 
         </div>
+        <ChartData></ChartData>
         
     </div>
+    
   );
 }
 
